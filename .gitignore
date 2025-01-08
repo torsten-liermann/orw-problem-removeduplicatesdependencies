@@ -1,0 +1,80 @@
+# Maven spezifisch
+target/
+!*/src/main/resources/
+!*/src/test/resources/
+!*/src/main/webapp/
+!pom.xml
+
+# IntelliJ IDEA
+*.iml
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries/
+.idea/**/shelf/
+.idea/**/vcs.xml
+.idea/**/modules.xml
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Betriebssystem-spezifisch
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporäre Dateien
+*.swp
+*.bak
+*.tmp
+*.temp
+*.~*
+
+# Packaging
+*.jar
+*.war
+*.ear
+
+# Generierte Dateien
+*.class
+*.dex
+*.js.map
+
+# Test-Reports
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# SonarQube
+.sonar/
+.report-task.txt
+
+# Andere Build-Systeme
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Lokale Konfigurationen
+.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local

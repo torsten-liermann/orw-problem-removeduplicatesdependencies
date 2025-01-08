@@ -1,0 +1,2 @@
+# Setzt für alle Textdateien LF als Zeilenendzeichen
+* text=auto eol=lf
