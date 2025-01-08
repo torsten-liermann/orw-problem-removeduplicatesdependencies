@@ -4,15 +4,9 @@
 
         <groupId>demo</groupId>
         <artifactId>demo</artifactId>
-	<version>${version.project}</version>
+	<version>1.0</version>
 
         <packaging>pom</packaging>
-
-	<properties>
-		<version.tool>2.0.0</version.tool>
-		<version.project>1.0</version.project>
-		<version.launcher>1.0</version.launcher>
-	</properties>
 
 	<modules>
 		<module>launcher</module>

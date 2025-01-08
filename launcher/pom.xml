@@ -4,12 +4,12 @@
 	<parent>
           <groupId>demo</groupId>
           <artifactId>demo</artifactId>
-	  <version>${version.project}</version>
+	  <version>1.0</version>
         </parent>
 
         <groupId>demo</groupId>
         <artifactId>launcher</artifactId>
-	<version>${version.launcher}</version>
+	<version>1.0</version>
 
         <packaging>pom</packaging>
 
@@ -19,12 +19,12 @@
                         <groupId>com.adobe.aio.cloudmanager</groupId>
                         <artifactId>aio-lib-cloudmanager</artifactId>
                         <classifier>java8</classifier>
-                        <version>${version.tool}</version>
+                        <version>2.0.0</version>
                 </dependency>
                 <dependency>
                         <groupId>com.adobe.aio.cloudmanager</groupId>
                         <artifactId>aio-lib-cloudmanager</artifactId>
-                        <version>${version.tool}</version>
+                        <version>2.0.0</version>
                 </dependency>
             </dependencies>
         </dependencyManagement>
