@@ -3,12 +3,28 @@
         <modelVersion>4.0.0</modelVersion>
 
         <groupId>demo</groupId>
-        <artifactId>demo</artifactId>
+        <artifactId>launcher</artifactId>
 	<version>1.0</version>
 
         <packaging>pom</packaging>
 
+        <dependencyManagement>
+	      <dependencies>
+                <dependency>
+                        <groupId>com.adobe.aio.cloudmanager</groupId>
+                        <artifactId>aio-lib-cloudmanager</artifactId>
+                        <classifier>java8</classifier>
+                        <version>2.0.0</version>
+                </dependency>
+                <dependency>
+                        <groupId>com.adobe.aio.cloudmanager</groupId>
+                        <artifactId>aio-lib-cloudmanager</artifactId>
+                        <version>2.0.0</version>
+                </dependency>
+            </dependencies>
+        </dependencyManagement>
+
 	<modules>
-		<module>launcher</module>
+		<module>dialog</module>
 	</modules>
 </project>
