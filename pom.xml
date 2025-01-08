@@ -3,10 +3,10 @@
         <modelVersion>4.0.0</modelVersion>
 
         <groupId>demo</groupId>
-        <artifactId>launcher</artifactId>
+        <artifactId>dialog</artifactId>
 	<version>1.0</version>
 
-        <packaging>pom</packaging>
+        <packaging>jar</packaging>
 
         <dependencyManagement>
 	      <dependencies>
@@ -24,7 +24,11 @@
             </dependencies>
         </dependencyManagement>
 
-	<modules>
-		<module>dialog</module>
-	</modules>
+	<dependencies>
+                <dependency>
+                        <groupId>com.adobe.aio.cloudmanager</groupId>
+                        <artifactId>aio-lib-cloudmanager</artifactId>
+                </dependency>
+	</dependencies>
+
 </project>
