@@ -9,3 +9,4 @@ mvnw org.openrewrite.maven:rewrite-maven-plugin:5.47.3:run
   -Drewrite.recipeArtifactCoordinates=org.openrewrite.recipe:rewrite-migrate-java:LATEST
   -Drewrite.activeRecipes=org.openrewrite.maven.RemoveDuplicateDependencies
 ```
+https://github.com/openrewrite/rewrite/issues/4868
